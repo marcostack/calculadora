@@ -1,0 +1,19 @@
+{
+  "name": "calculadora",
+  "version": "0.1.0",
+  "main": "main.js",
+  "author": "Marcos",
+  "scripts": {
+    "start": "electron main.js",
+    "win32": "electron-packager . calculadora --platform=win32 --arch=ia32",
+    "win64": "electron-packager . calculadora --platform=win32 --arch=x64",
+    "linux32": "electron-packager . calculadora --platform=linux --arch=ia32",
+    "linux64": "electron-packager . calculadora --platform=linux --arch=x64",
+    "osx": "electron-packager . calculadora --platform=darwin --arch=x64",
+    "build": "electron-packager . --all"
+  },
+  "devDependencies": {
+    "electron-packager": "^13.0.1",
+    "electron-prebuilt": "^1.4.13"
+  }
+}
