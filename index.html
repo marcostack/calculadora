@@ -16,41 +16,33 @@
 </head>
 
 <body>
-    <div class="mx-auto pl-3" style="width:300px;">
-      <div class="form-group mt-4" style="width: 265px;">
+    <div class="mx-auto p-3" style="width:290px; background-color: #ddd;">
+      <div class="form-group mt-4" style="width: 255px;">
         <input type="text" class="form-control form-control-lg" id="displayInputNumber" aria-describedby="displayInputHelp" onInput="calc()" placeholder="0">
       </div>
-      <div class="form-group row">
-        <div class="col-sm-10">
-          <button type="button" value="7" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">7</button>
-          <button type="button" value="8" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">8</button>
-          <button type="button" value="9" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">9</button>
-          <button type="button" value="/" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">&nbsp;/</button>
-        </div>
+      <div class="form-group" style="width: 100%;">
+          <button type="button" value="7" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">7</button>
+          <button type="button" value="8" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">8</button>
+          <button type="button" value="9" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">9</button>
+          <button type="button" value="/" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">&nbsp;/</button>
       </div>
-      <div class="form-group row">
-        <div class="col-sm-10">
-          <button type="button" value="4" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">4</button>
-          <button type="button" value="5" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">5</button>
-          <button type="button" value="6" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">6</button>
-          <button type="button" value="*" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">&nbsp;*</button>
-        </div>
+      <div class="form-group" style="width: 100%;">
+          <button type="button" value="4" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">4</button>
+          <button type="button" value="5" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">5</button>
+          <button type="button" value="6" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">6</button>
+          <button type="button" value="*" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">*</button>
       </div>
-      <div class="form-group row">
-        <div class="col-sm-10">
-          <button type="button" value="1" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">1</button>
-          <button type="button" value="2" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">2</button>
-          <button type="button" value="3" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">3</button>
-          <button type="button" value="-" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">&nbsp;-</button>
-        </div>
+      <div class="form-group" style="width: 100%;">
+          <button type="button" value="1" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">1</button>
+          <button type="button" value="2" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">2</button>
+          <button type="button" value="3" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">3</button>
+          <button type="button" value="-" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">&nbsp;-</button>
       </div>
-      <div class="form-group row">
-        <div class="col-sm-10">
-          <button type="button" value="0" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">0</button>
-          <button type="button" value="c" onclick="btnClear()" class="btn btn-lg btn-primary pl-4 pr-4">c</button>
-          <button type="button" value="=" onclick="btnResult()" class="btn btn-lg btn-primary pl-4 pr-4">=</button>
-          <button type="button" value="+" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4">+</button>
-        </div>
+      <div class="form-group" style="width: 100%;">
+          <button type="button" value="0" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">0</button>
+          <button type="button" value="c" onclick="btnClear()" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">c</button>
+          <button type="button" value="=" onclick="btnResult()" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">=</button>
+          <button type="button" value="+" onclick="btnCal(value)" class="btn btn-lg btn-primary pl-4 pr-4" style="width:60px;">+</button>
       </div>
       <p id="resultado"></p>
   </div>
